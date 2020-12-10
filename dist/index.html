@@ -28,7 +28,6 @@
         margin-top: 30px;
         display: none;
     }</style>
-
     <style>body {}
 
         p {
@@ -84,13 +83,11 @@
         .bio {
         position: relative;
         }
-
         .bio img {
         position: absolute;
         top: 0;
         right: 0;
         }</style>
-    
 </head>
 <body>
     <article>
@@ -108,12 +105,20 @@
         <section class="education">
             <h2>教育经历</h2>
             <p>
-                <span><time>2012</time>~<time>2016年</time></span>
-                华东理工继续教育学院 本科</p>
+                年限：
+                <span>
+                    <time>2012</time>~<time>2016年</time>
+                </span>
+                华东理工继续教育学院 本科
+            </p>
+            <p>
+                专业： 工商管理
+            </p>
         </section>
 
-        <style>.projects {}
-        
+        <style>.projects {
+            }
+
             .projects p {
                 color: #666;
             }
@@ -139,27 +144,45 @@
         
             .projects>ol>li h3 {
                 display: inline-block;
+            }
+            .projects img{
+                margin-left: 50%;
+                transform: translate(-50%);
+        }
+            .projects a{
+                border-bottom: transparent;
             }</style>
         <section class="projects">
             <h2>项目经历</h2>
             <ol>
                 <li>
                     <header>
-                        <h3>旺财记账</h3>
+                        <h3>玛尼记账</h3>
                         <span>
-                            <a href="#">源码链接</a>
-                            <a href="#">项目预览</a>
+                            <a href="https://gitee.com/ru-lishu/morney-website">源码链接</a>
+                            <a href="http://ru-lishu.gitee.io/morney-website">项目预览</a>
                         </span>
                     </header>
                     <p>
-                        技术描述<strong>Vue</strong> / <strong>TypeScript</strong> / <strong>Vuex</strong> /<strong>Vue-rounter</strong>
+                        技术描述 : &nbsp; <strong>Vue</strong> / <strong>TypeScript</strong> / <strong>Vuex</strong> /<strong>Vue-rounter</strong>
                     </p>
+                    &nbsp;
                     <p>
-                       功能描述<strong>下拉更新</strong>
+                       功能描述 : &nbsp;
+                       玛尼记账是一款极简的适用手机记账的应用，也一款基于<strong>Vue，Vuex，Vue-rounter，TypeScript</strong>记账的单页面应用。
+                       由本人查看开源项目完成，期间遇到了很多webpack,TypeScript和一些其他的问题，都记录在<strong>本人的博客</strong>中。
                     </p>
+                    &nbsp;
                     <p>
-                      总结描述
+                      总结描述: &nbsp;
+                      这款应用中了解Vue很多的细节包括：computed Ts写法， watch 装饰器写法，Prop属性，.sync v-model ,localStorage存储，Slot插槽 ，SVG symbol ,Vue-rounter，Vuex,和一些思想包括：表驱动编程，模块化思想，命名严谨性。
                     </p>
+                    &nbsp;
+                    <div>
+                        <a href="/qrcode.87459425.png">
+                            <img width="200" src="/qrcode.87459425.png" alt="玛尼记账">
+                        </a>
+                    </div>
                 </li>
                 <!-- <li>
                     <header>
@@ -254,13 +277,13 @@
                             <a href="http://ru-lishu.gitee.io/nav-daohang/dist/index.html">项目预览</a>
                         </span>
                     </header>
-                    <p>这是根据<strong>HTML,CSS,Javascript</strong> 制作的一个简易的导航网站</p>
+                    <p>这是根据<strong>HTML,CSS,JavaScript</strong> 制作的一个简易的导航网站</p>
                 </li>
         
             </ul>
         </section>
 
-        <style>.skills {}
+        <style class="page: 2;">.skills {}
         
             #skills {
                 width: 500px;
@@ -303,7 +326,7 @@
                 <ul>
                     <li>熟悉<strong>HTML5,CSS3</strong>技术，包括flex，float布局，相对绝对定位，脱离文档流，清除浮动等
                     </li>
-                    <li>熟悉<strong>JS编程接口</strong>技术，包括DOM的增删改查，DOM事件和事件委托，jquery的增删改查等
+                    <li>熟悉<strong>JS编程接口</strong>技术，包括DOM的增删改查，DOM事件和事件委托，Jquery的增删改查等
                     </li>
                     <li>熟悉<strong>JS前后端分离</strong>技术，包括AJAX、跨域、前端路由、Cookie、Session 等
                     </li>
@@ -334,7 +357,10 @@
         <section class="job">
             <h2>工作经历</h2>
             <ol>
-                <li>。。。</li>
+                <li>
+                    <p>之前是做会计专业的，不太喜欢太安逸的生活，因对计算机感兴趣，深思熟虑后辞职学习前端，自律学习坚持了半年左右，希望各位人事经理给我一个机会，让我发挥自己的价值，选择我没有错呦！
+                    </p>
+                </li>
             </ol>
         </section>
 
@@ -353,9 +379,9 @@
         <section class="others">
             <h2>其他链接</h2>
             <ul>
-                <li><a href="https://www.zhihu.com/people/lishuwhy">我的博客</a> ：博客15篇</li>
-                <li><a href="https://github.com/rulishu">我的 GitHub </a> ：博客15篇</li>
-                <li><a href="https://www.yuque.com/magic-8sgql/qly924">我的笔记</a></li>
+                <li><a href="https://www.zhihu.com/people/lishuwhy">我的博客</a> ：博客22篇。包含了做项目遇到的一些问题的记录以及解决方法等。</li>
+                <li><a href="https://github.com/rulishu">我的 GitHub </a> ：简易项目24个。学习时，动手实践的小项目，部署到GitHub上。</li>
+                <li><a href="https://www.yuque.com/magic-8sgql/qly924">我的笔记</a> ：学习知识随手做的笔记，方便遗忘时查看。</li>
             </ul>
         </section>
         
