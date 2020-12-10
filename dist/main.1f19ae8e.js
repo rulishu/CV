@@ -133,23 +133,24 @@ option = {
       }
     },
     indicator: [{
-      name: '静态页面',
-      max: 100
+      name: 'HTML&CSS',
+      max: 70
     }, {
-      name: '编程基础',
-      max: 100
+      name: 'JS编程接口',
+      max: 60
+    }, {
+      name: 'JS前后分离',
+      max: 60
     }, {
       name: 'Vue全家桶',
-      max: 100
-    }, {
-      name: 'React 全家桶',
-      max: 100
-    }, {
+      max: 65
+    }, // { name: 'React 全家桶',max:100},
+    {
       name: '项目开发',
-      max: 100
+      max: 70
     }, {
       name: '沟通能力',
-      max: 100
+      max: 70
     }]
   },
   series: [{
@@ -192,7 +193,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53854" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62055" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
